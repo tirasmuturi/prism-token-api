@@ -20,7 +20,7 @@ class PrismTriftServiceProvider extends ServiceProvider {
      */
     public function register()
     {
-        $this->package(__DIR__);
+        $this->package('', __DIR__);
     }
 
     /**
