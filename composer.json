@@ -1,7 +1,13 @@
 {
-    "name": "tirasmuturi/prism-thrift-api",
+    "name": "tirasmuturi/prism-token-api",
     "description": "Generate token no for meters",
     "require": {
         "php": ">=5.4"
-    }
+    },
+    "autoload": {
+        "psr-0": {
+            "tirasmuturi\\prism-token-api": "/"
+        }
+    },
+    "minimum-stability": "dev"
 }
