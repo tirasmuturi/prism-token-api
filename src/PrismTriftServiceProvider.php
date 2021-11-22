@@ -1,5 +1,7 @@
 <?php
 
+namespace Tirasmuturi\PrismTokenApi;
+
 use Illuminate\Support\ServiceProvider;
 
 class PrismTriftServiceProvider extends ServiceProvider {
