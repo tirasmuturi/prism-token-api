@@ -1,12 +1,19 @@
 {
     "name": "tirasmuturi/prism-token-api",
     "description": "Generate token no for meters",
+    "authors": [
+        {
+            "name": "Tiras Muturi",
+            "email": "tirasmuturi@gmail.com",
+            "role": "Senior Developer / DevOps"
+        }
+    ],
     "require": {
         "php": ">=5.4"
     },
     "autoload": {
-        "psr-0": {
-            "tirasmuturi\\prism-token-api": "/"
+        "psr-4": {
+            "Tirasmuturi\\PrismTokenApi\\": "src"
         }
     },
     "minimum-stability": "dev"
