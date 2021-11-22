@@ -1,0 +1,7 @@
+{
+    "name": "tirasmuturi/prism-thrift-api",
+    "description": "Generate token no for meters",
+    "require": {
+        "php": ">=5.4"
+    }
+}
